@@ -1,0 +1,17 @@
+{
+  "name": "continuumlogic-framer-tools",
+  "version": "1.0.0",
+  "description": "CLI scripts for publishing blog posts to the ContinuumLogic Framer site via the Framer API",
+  "type": "module",
+  "scripts": {
+    "create-post": "node scripts/create-post.mjs",
+    "upload-image": "node scripts/upload-image.mjs",
+    "set-post-image": "node scripts/set-post-image.mjs",
+    "update-post-body": "node scripts/update-post-body.mjs",
+    "publish-post": "node scripts/publish-post.mjs",
+    "list-posts": "node scripts/list-posts.mjs"
+  },
+  "dependencies": {
+    "framer-api": "^0.1.0"
+  }
+}
